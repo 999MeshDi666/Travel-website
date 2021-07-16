@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Open+Sans&family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+	<title>Landing Page</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<img src="img/logo.png" alt="logo" class="logo">
+			<div class="header_wrapper">
+				<div class="header_offer animate__animated animate__fadeInLeft">
+					<h1 class="header_headline">
+						С помощью верстки <br> я создам ту жизнь, о которой <span>мечтаю!</span>
+					</h1>
+					<p class="header_text" id="hd_t">
+						Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
+					</p>
+					<a href="#" class="btn header_btn" id="btn"><strong>Двигаться к мечте!</strong></a>
+				</div>
+				<div class="header_img animate__animated animate__fadeInRight">
+					<img src="img/planet.png" alt="baggage">
+				</div>
+			</div>
+
+			<form action="#" class="sec2_form form2">
+				<div class="form2_text">
+					<p class="smile">	&#128578;</p>
+					<h3 class="form2_h3">Спасибо за то,что вы есть</h3>
+					<p class="form2_p">Хотите сделать заказ билетов в будущее? Мы будем рады если вы это сделаете!</p>
+				</div>
+				<a href="#form1" class="btn form2_btn" id="form2_btn"><strong>Заказать</strong></a>
+			</form>
+		</div>
+	</header>
+	<section id="sec1" class="section1 ">
+		<div class="container">
+			<h1 class="sec_headline animate__animated">Что меня ждет впереди</h1>
+			<div class="sec1_wrapper">
+				<div class="skill icon_time animate__animated">
+					<h2>
+						Свободное время
+					</h2>
+					<p>Мне нужно свободное время на семью и самое настоящее</p>
+				</div>
+				<div class="skill icon_island animate__animated">      
+					<h2>
+						Яркие путешествия
+					</h2>
+					<p>Работать откуда угодно - что может быть лучше?</p>                 
+				</div>
+				<div class="skill icon_rocket animate__animated">
+					<h2>
+						Создание ценности
+					</h2>
+					<p>Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section2">
+		<div class="container">
+			<h1 class="sec_headline">Форма заказа билета в будущее</h1>
+			<form action="#" class="sec2_form" id="form1">
+				<input type="text" name="Name" placeholder="Имя" required class="sec2_input">
+				<input type="email" name="E-mail" placeholder="Email" required class="sec2_input">
+				<input type="tel" name="Телефон" placeholder="Телефон" required class="sec2_input">
+				<input type="text" name="Comment" placeholder="Куда я полечу в ближайшее время" class="sec2_input">
+				<button type="insert" class="btn sec2_btn" id="sec2_btn"><strong>Двигаться к мечте!</strong></button>
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<p class="foot_text">&#169; Все мои мечты защищены моим трудолюбием (Mad&co)</p>
+		</div>
+	</footer>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
